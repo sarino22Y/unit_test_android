@@ -60,6 +60,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         });
     }
 
+    /**
+     * Remplacer le fragment.
+     * @param fragment1
+     */
     private void replaceFragment(Fragment1 fragment1) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.frameLayout1, fragment1).commit();
