@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UnitTestBD</string>
+    <string name="menu">menu</string>
+    <string name="txtLogo">Paiement</string>
+    <string name="item1">item1</string>
+    <string name="group_item1">group_item1</string>
+    <string name="group_item2">group_item2</string>
+    <string name="submenu_title">submenu_title</string>
+    <string name="submenu_item1">submenu_item1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

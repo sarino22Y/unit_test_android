@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+                android:title="Client"
+                android:icon="@drawable/accueil">
+            <menu>
+                <item
+                        android:id="@+id/nav_create_client"
+                        android:title="Créer"/>
+                <item
+                        android:id="@+id/nav_modify_client"
+                        android:title="Modifier"/>
+                <item
+                        android:id="@+id/nav_list_client"
+                        android:title="Lister"/>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+                android:title="Marchand"
+                android:icon="@drawable/icon_send">
+            <menu>
+                <item
+                        android:id="@+id/nav_create_marchand"
+                        android:title="Créer"/>
+                <item
+                        android:id="@+id/nav_modify_marchand"
+                        android:title="Modifier"/>
+                <item
+                        android:id="@+id/nav_list_marchand"
+                        android:title="Lister"/>
+            </menu>
+        </item>
+    </group>
+</menu>
